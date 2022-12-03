@@ -1,0 +1,10 @@
+.heroContainer{
+   display: grid;
+   grid-template-columns: 9fr 3fr;
+  margin-top: 30px;
+  gap: 30px;
+  
+}
+.heroLeft{
+   width: 100%;
+}
