@@ -1,0 +1,24 @@
+article{
+   display: flex;
+   margin-top: 30px;
+}
+.article-card{
+   display: flex;
+   gap: 10px;
+   align-items: flex-start;
+}
+.article-img>img{
+   height: 100px;
+   object-fit: cover;
+}
+h2, h5, p{
+   margin: 0;
+}
+.article-right{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.article-right>h2{
+color: lightgray;
+}

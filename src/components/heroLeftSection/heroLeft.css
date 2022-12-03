@@ -22,9 +22,15 @@
    flex: 1;
 }
 .button{
-   background-color: hsl(240, 100%, 5%);
+   background-color: hsl(5, 85%, 63%);
    color: white;
    text-transform: uppercase;
    letter-spacing: 3px;
    padding: 10px 30px;
+   transition: 0.5s;
+   border: none;
+   margin-top: 10px;
+}
+.button:hover{
+   background-color: hsl(240, 100%, 5%);
 }

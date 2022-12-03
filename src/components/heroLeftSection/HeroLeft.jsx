@@ -10,7 +10,7 @@ const HeroLeft = () => {
                         <div className="heroBottom">
                            <div className="bottom-left"><h1>The Bright <br /> Future of <br /> Web 3.0?</h1></div>
                            <div className="bottom-right">
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, reiciendis amet saepe quia quae est veritatis, hic dolore ducimus, totam veniam esse! Ipsa harum qui exercitationem quos, ab eius doloribus placeat! </p>
+                              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
                               <button className="button cursor">Read more</button>
                            </div>
                         </div>

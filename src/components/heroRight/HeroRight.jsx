@@ -19,10 +19,10 @@ const bodyItems=[
       <aside className='heroRight'>
          <h1 className='heading'>New</h1>
 <div className='heroRight-body'>
-   {bodyItems.map(item=><div key={item.heading} className='body-item'>
+   {bodyItems.map((item, index)=><div key={item.heading} className='body-item'>
       <h5>{item.heading}</h5>
       <p>{item.desc}</p>
-      <div/>
+      {index ===2? '' :<div/>}
    </div>)}
 </div>
       </aside>
