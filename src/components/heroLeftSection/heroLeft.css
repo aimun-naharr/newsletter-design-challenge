@@ -1,5 +1,6 @@
 .heroLeft{
-   
+   display: flex;
+   flex-direction: column;
 }
 .banner-img>img{
   width: 100%;
@@ -33,4 +34,14 @@
 }
 .button:hover{
    background-color: hsl(240, 100%, 5%);
+}
+
+
+@media screen and (max-width: 500px) {
+.heroBottom{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: unset;
+}
 }

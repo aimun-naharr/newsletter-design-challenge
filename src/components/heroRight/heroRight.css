@@ -2,7 +2,8 @@
    background-color: hsl(240, 100%, 5%);
    color: #ffff;
    padding: 10px;
-  
+  margin: 0 1px;
+  max-width: 250px;
 }
 .heading{
    font-size: 30px;
@@ -36,4 +37,10 @@
    width: 100%;
    background-color: hsl(233, 8%, 79%);
    margin: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 500px) {
+   .heroRight{
+    
+   }
 }

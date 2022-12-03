@@ -8,3 +8,10 @@
 .heroLeft{
    width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+   .heroContainer{
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+}
